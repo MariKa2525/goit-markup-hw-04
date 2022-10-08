@@ -39,6 +39,7 @@ body {
    
    .page-header {
    height: 80px;
+   border-bottom: 1px solid #ECECEC;
    }
 
        
@@ -137,10 +138,12 @@ justify-content: center;
 
     .auth-nav-icon {
         margin-right: 10px;
+        fill: currentColor;
        
     }
 
-    .auth-nav-item:hover .auth-nav-icon {
+    .auth-nav-item:hover .auth-nav-icon,
+    .auth-nav-item:focus .auth-nav-icon {
         fill:  var(--accent-color);
     }
    
@@ -542,9 +545,9 @@ justify-content: center;
 
     .progects-items:hover,
     .progects-items:focus {
-box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.16),
-4px 0px 4px  rgba(0, 0, 0, 0.06),
-1px 0 1px rgba(0, 0, 0, 0.12);
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     }
 
 
@@ -683,12 +686,7 @@ box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.16),
 
     .footer-icon {
         display: block;
-       
-        
-        margin-left: 156px;
-        justify-content: space-between;
-        
-        
+        margin-left: 70px;
     }
         
 
